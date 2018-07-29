@@ -2,6 +2,9 @@ package com.alibaba.dubbo.rpc;
 
 import com.alibaba.dubbo.common.extension.ExtensionLoader;
 
+/**
+ * @author zkn
+ */
 public class ProxyFactory$Adaptive implements com.alibaba.dubbo.rpc.ProxyFactory {
     public java.lang.Object getProxy(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.RpcException {
         if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
