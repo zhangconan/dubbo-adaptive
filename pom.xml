@@ -37,6 +37,7 @@
                     <artifactId>spring</artifactId>
                 </exclusion>
             </exclusions>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <build>
