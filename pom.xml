@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>dubbo-adaptive</artifactId>
     <groupId>zkn.dubbo.adaptive</groupId>
-    <version>2.6.2</version>
+    <version>2.7.0</version>
     <properties>
-        <dubbo.version>2.6.2</dubbo.version>
+        <dubbo.version>2.7.0</dubbo.version>
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.alibaba</groupId>
+            <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
             <version>${dubbo.version}</version>
             <exclusions>
@@ -37,7 +37,6 @@
                     <artifactId>spring</artifactId>
                 </exclusion>
             </exclusions>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
     <build>
